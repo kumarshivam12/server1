@@ -64,7 +64,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:843597355677:task-definition/server1:1",
+  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:843597355677:task-definition/server1:3",
   "family": "server1",
   "requiresAttributes": [
     {
@@ -116,7 +116,7 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "512",
-  "revision": 1,
+  "revision": 3,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
