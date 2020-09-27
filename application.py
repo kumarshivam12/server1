@@ -16,7 +16,7 @@ def index():
 
 @application.route("/call")
 def call():
-    url = 'http://127.0.0.1:5000'
+    url = 'http://internal-alb2-1541729269.ap-south-1.elb.amazonaws.com'
     data = requests.get(url)
     return data.json()
 
