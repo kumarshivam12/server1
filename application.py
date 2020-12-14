@@ -12,7 +12,7 @@ def root():
 
 @application.route("/hello")
 def index():
-    return "Hello World from COE Team."
+    return "Hello World from MOE Team."
 
 @application.route("/call")
 def call():
